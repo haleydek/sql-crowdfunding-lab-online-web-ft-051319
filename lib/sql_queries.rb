@@ -11,7 +11,10 @@ def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_
   #match pledges table project_id to projects.id
   #projects.title alphabetized
   #inner join
-  "SELECT projects.id"
+  "SELECT projects.id, pledges.amount
+  FROM projects
+  INNER JOIN pledges
+  ON projects.id = pledges."
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
