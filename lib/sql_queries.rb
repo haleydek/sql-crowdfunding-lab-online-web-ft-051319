@@ -27,7 +27,7 @@ end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
   #users.name
-  #users.
+  #pledges.amount group by pledges.user_id
   "Write your SQL query Here"
 end
 
